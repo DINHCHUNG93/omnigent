@@ -1,3 +1,33 @@
+
+
+Databricks công ty hàng đầu về Big Data + AI vừa giới thiệu Open-Sources Omnigent: Meta-Harness tiên tiến cho Soạn Thảo, Quản Trị Và Chia Sẻ AI Agents
+
+Khi doanh nghiệp sử dụng đồng thời Claude Code, Codex, Gemini CLI hay các AI Agent tùy chỉnh, việc quản lý, cộng tác và kiểm soát chi phí nhanh chóng trở nên phức tạp. Omnigent là dự án mã nguồn mở mới từ Databricks, đóng vai trò như một lớp điều phối phía trên các agent hiện có, giúp chúng hoạt động trong cùng một hệ sinh thái thống nhất.
+
+Các tính năng nổi bật:
+
+* Chạy nhiều AI Agent khác nhau trong cùng một session.
+* Chuyển đổi giữa Claude Code, Codex và agent tùy chỉnh mà không cần thay đổi workflow.
+* Đồng bộ session giữa terminal, web, desktop và mobile.
+* Chia sẻ phiên làm việc trực tiếp qua URL.
+* Hỗ trợ comment, co-drive và fork conversation.
+* Thiết lập policy kiểm soát chi phí theo ngân sách.
+* Yêu cầu phê duyệt trước các hành động nhạy cảm như git push hoặc deploy.
+* Sandbox cô lập môi trường và bảo vệ secrets.
+* Hỗ trợ cloud sandbox để chạy agent từ xa.
+* Mã nguồn mở theo giấy phép Apache 2.0.
+
+Hai ví dụ đáng chú ý đi kèm:
+
+* Polly: Agent điều phối nhiều coding agent chạy song song và thực hiện review chéo.
+* Debby: Gửi cùng một câu hỏi cho Claude và GPT để so sánh, phản biện và tổng hợp kết quả.
+
+Điểm thú vị nhất là Omnigent không tạo thêm một AI Agent mới mà xây dựng một tầng quản trị chung cho toàn bộ agent, tương tự cách Kubernetes đã chuẩn hóa việc quản lý container. Khi doanh nghiệp bắt đầu triển khai nhiều AI Agent, đây có thể là một trong những thành phần hạ tầng quan trọng nhất.
+
+
+
+
+
 <div align="center">
 
 # <img src="https://raw.githubusercontent.com/omnigent-ai/omnigent/main/docs/images/omnigent-logo.svg" alt="" height="38" valign="middle" /> Omnigent
